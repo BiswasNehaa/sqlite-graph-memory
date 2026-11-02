@@ -6,6 +6,8 @@ recorded after the fact rather than backdated to look contemporaneous.
 
 ## Unreleased
 
+**`--version` on `sgm-stats` and `sgm-ask`.** Both commands now print the package version and exit 0, which is the first thing a bug report asks for. Thanks to [@BiswasNehaa](https://github.com/BiswasNehaa) (#81, closes #75).
+
 ## v0.3.5 - 2026-11-01
 
 **Release fix.** v0.3.4 was tagged but never reached PyPI: the release commit changed only this file, and the publish job stopped on its version check (pyproject, `__init__`, server.json still said 0.3.3). v0.3.5 is the first PyPI build with everything listed under v0.3.4 plus the entries below, with the version set in all four places.
